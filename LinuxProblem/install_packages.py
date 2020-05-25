@@ -22,3 +22,5 @@ else:
 	print("Failed:")
 	for x in list_failed:
 		print(x)
+
+		
