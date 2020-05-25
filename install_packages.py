@@ -12,7 +12,7 @@ list_failed=[]
 for p in packages:
 	cmd = 'pip install '+p
 	retcode = subprocess.call(cmd,shell=True)
-	print(retcode)
+	#print(retcode)
 	if retcode==1:
 		list_failed.append(p)
 
